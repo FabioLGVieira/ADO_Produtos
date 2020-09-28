@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de Produtos"
+        android:gravity="center"
+        android:layout_margin="20sp"
+        android:textSize="20sp"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Nome do produto"
+    android:gravity="center"
+    android:layout_margin="10sp"
+    android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/txtNomeProduto"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:hint="Digite o nome do produto"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preço de custo"
+        android:gravity="center"
+        android:layout_margin="10sp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/txtPrecoCusto"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:hint="5.00"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Preço de venda"
+        android:gravity="center"
+        android:layout_margin="10sp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/txtPrecoVenda"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:hint="5.99"/>
+
+    <Button
+        android:id="@+id/btLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Limpar"/>
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Salvar"/>
+
+    <Button
+        android:id="@+id/btAbrir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Pesquisar"/>
+
+    <Button
+        android:id="@+id/btPop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:text="Lucro/Prejuízo"/>
+
+
+</LinearLayout></ScrollView>
